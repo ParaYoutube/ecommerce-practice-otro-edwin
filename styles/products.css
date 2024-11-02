@@ -1,0 +1,48 @@
+.products {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.products > #card-product {
+  width: 16rem;
+  height: 22rem;
+  border: double 4px #06668f;
+  border-radius: 10px; 
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#card-product > img {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+#card-product > h2,
+#card-product > p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+#card-product > button {
+  margin-top: 1rem;
+  width: 90%;
+  font-size: 1.2rem;
+  background-color: #06c006;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#card-product > button:hover {
+  background-color: #1af31a;
+}
+

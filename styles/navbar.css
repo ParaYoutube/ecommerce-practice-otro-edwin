@@ -1,0 +1,39 @@
+nav {
+  width: 100%;
+  height: 100%;
+}
+
+nav > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #de2706;
+  text-shadow: 0 0 10px #fff;
+}
+
+.bxs-cart-alt {
+  font-size: 1.5rem;
+  color: #2270e6;
+}
+
+.bxs-cart-alt:hover {
+  color: #383737;
+  text-shadow: 0 0 10px #0000ff;
+  cursor: pointer;
+}
